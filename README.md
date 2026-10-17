@@ -2,7 +2,7 @@
 
 Code and raw results for the article
 
-> **Reusable Löwner bounds for moving inclusions: Contrast-robust certification of elliptic problems**
+> **Reusable Löwner Bounds for Elliptic Problems with Moving Inclusions**
 > Stefano Micheletti (MOX, Dipartimento di Matematica, Politecnico di Milano).
 > Manuscript being prepared for submission to *SIAM Journal on Scientific Computing* (2026).
 
