@@ -1,0 +1,15 @@
+1) max |L K - delta| on window: 1.33e-15
+
+Omega_delta = 6 cells from boundary: |E_delta| = 13612, offline compression 1.0s
+  sigma_j(H^grad)/||G||, j=1..: 4e-01 2e-01 1e-01 7e-02 4e-02 1e-02 4e-03 3e-04  (j=1,5,10,15,20,30,40,60)
+  r=10: eps=1.2e-01  certified 108/108, valid among certified 108/108, rel.width median 3.2e-01 max 5.5e-01, online time/eval 7.76 ms
+  r=20: eps=3.3e-02  certified 108/108, valid among certified 108/108, rel.width median 9.0e-02 max 1.5e-01, online time/eval 7.97 ms
+  r=30: eps=9.7e-03  certified 108/108, valid among certified 108/108, rel.width median 2.6e-02 max 4.4e-02, online time/eval 7.09 ms
+  r=40: eps=2.9e-03  certified 108/108, valid among certified 108/108, rel.width median 7.8e-03 max 1.3e-02, online time/eval 8.17 ms
+
+Omega_delta = 2 cells from boundary: |E_delta| = 16380, offline compression 1.2s
+  sigma_j(H^grad)/||G||, j=1..: 5e-01 3e-01 3e-01 2e-01 2e-01 1e-01 7e-02 3e-02  (j=1,5,10,15,20,30,40,60)
+  r=10: eps=2.9e-01  certified 87/108, valid among certified 87/87, rel.width median 1.2e+00 max 2.6e+00, online time/eval 7.62 ms
+  r=20: eps=1.7e-01  certified 108/108, valid among certified 108/108, rel.width median 5.4e-01 max 1.0e+00, online time/eval 6.97 ms
+  r=30: eps=1.1e-01  certified 108/108, valid among certified 108/108, rel.width median 3.1e-01 max 5.8e-01, online time/eval 7.62 ms
+  r=40: eps=6.9e-02  certified 108/108, valid among certified 108/108, rel.width median 1.9e-01 max 3.4e-01, online time/eval 7.50 ms

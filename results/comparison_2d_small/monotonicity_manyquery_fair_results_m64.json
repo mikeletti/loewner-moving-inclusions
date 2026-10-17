@@ -1,0 +1,140 @@
+{
+  "problem": {
+    "n_free": 3969,
+    "tiles": 9,
+    "positions": 54,
+    "queries": 216,
+    "mesh_m": 64,
+    "inclusion_radius": 0.06,
+    "collar": 0.08,
+    "k": 12,
+    "rb_rank": 16,
+    "p": [
+      182,
+      190,
+      186,
+      192,
+      188,
+      192,
+      188,
+      186,
+      184,
+      188,
+      190,
+      184,
+      188,
+      182,
+      182,
+      184,
+      182,
+      176,
+      186,
+      188,
+      186,
+      186,
+      184,
+      178,
+      178,
+      186,
+      180,
+      174,
+      178,
+      188,
+      186,
+      190,
+      190,
+      186,
+      186,
+      188,
+      182,
+      192,
+      186,
+      178,
+      194,
+      186,
+      190,
+      188,
+      200,
+      188,
+      188,
+      196,
+      182,
+      184,
+      186,
+      190,
+      188,
+      188
+    ]
+  },
+  "offline_s": {
+    "common_A0": 0.37377403200025583,
+    "local_geometry": 0.7159515530001954,
+    "loewner_enrichment": 0.4049589910000577,
+    "exact_tile_enrichment": 0.3558585119999407,
+    "row_extraction": 0.24043355800040445,
+    "rb16_training": 0.5567654739998034,
+    "loewner_total_ex_common": 1.3613441020006576,
+    "exact_tile_total_ex_common": 1.3122436230005405
+  },
+  "global_rhs": {
+    "loewner": 108,
+    "exact_tile": 897
+  },
+  "online_s_total": {
+    "direct": 3.5126270299997486,
+    "exact_tile": 0.06821187200057466,
+    "woodbury_uncached": 9.051655461000337,
+    "woodbury_cached": 2.3075868180003454,
+    "loewner": 0.6948917500003517,
+    "loewner_hybrid": 0.38126262100013264,
+    "loewner_hybrid_factored": 0.4052863499991872,
+    "rb16": 0.028653588000452146
+  },
+  "online_ms_per_query": {
+    "direct": 16.26216217592476,
+    "exact_tile": 0.3157957037063642,
+    "woodbury_uncached": 41.90581231944601,
+    "woodbury_cached": 10.683272305557155,
+    "loewner": 3.2170914351868136,
+    "loewner_hybrid": 1.765104726852466,
+    "loewner_hybrid_factored": 1.8763256944406816,
+    "rb16": 0.13265550000209328
+  },
+  "factorized_checks": {
+    "valid_fraction": 1.0,
+    "relwidth_median": 3.862446171111169e-09,
+    "relwidth_max": 1.6919867668447215e-07
+  },
+  "factorized_storage_MB": 44.764304,
+  "dense_bracket_storage_MB": 78.905152,
+  "exact_tile_storage_MB": 39.452576,
+  "hybrid_checks": {
+    "valid_fraction": 1.0,
+    "relwidth_median": 3.862446171111169e-09,
+    "relwidth_max": 1.6919867668447215e-07
+  },
+  "loewner_checks": {
+    "certified": 216,
+    "total": 216,
+    "valid_vs_exact_tile": 216,
+    "relwidth_median": 3.862424460880871e-09,
+    "relwidth_max": 1.6917402502893543e-07
+  },
+  "rb16_check": {
+    "valid_fraction": 1.0,
+    "relwidth_median": 12.449998184647562,
+    "relwidth_max": 27304999.711490724,
+    "nominal_lambda0": 0.0031058275834293745
+  },
+  "max_relative_difference_to_exact_tile": {
+    "direct": 1.444029062584403e-09,
+    "woodbury_uncached": 1.3986197507337884e-16,
+    "woodbury_cached": 1.4005937187030267e-16
+  },
+  "break_even_queries": {
+    "lo_vs_direct": 104.35697353095746,
+    "lo_vs_cached_wb": 182.3347338668386,
+    "lo_vs_exact_tile": null,
+    "exact_tile_vs_direct": 82.29107397517288
+  }
+}

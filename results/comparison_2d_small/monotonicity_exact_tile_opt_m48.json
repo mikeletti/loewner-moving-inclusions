@@ -1,0 +1,11 @@
+{
+  "mesh_m": 48,
+  "n_free": 2209,
+  "tiles": 9,
+  "setup_s": 0.19898928400016302,
+  "optimized_exact_tile_offline_s": 0.22323325199977262,
+  "total_B_RHS": 695,
+  "mean_nB": 77.22222222222223,
+  "mean_tile_G_size": 422.0,
+  "storage_MB": 12.824928
+}

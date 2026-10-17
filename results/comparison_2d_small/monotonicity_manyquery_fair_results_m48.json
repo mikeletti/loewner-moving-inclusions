@@ -1,0 +1,123 @@
+{
+  "problem": {
+    "n_free": 2209,
+    "tiles": 9,
+    "positions": 54,
+    "queries": 432,
+    "mesh_m": 48,
+    "inclusion_radius": 0.06,
+    "collar": 0.08,
+    "k": 12,
+    "rb_rank": 16,
+    "p": [
+      102,
+      104,
+      106,
+      104,
+      106,
+      110,
+      106,
+      108,
+      108,
+      102,
+      102,
+      106,
+      110,
+      104,
+      98,
+      104,
+      100,
+      104,
+      104,
+      104,
+      106,
+      110,
+      104,
+      106,
+      98,
+      100,
+      104,
+      106,
+      104,
+      100,
+      112,
+      94,
+      106,
+      108,
+      110,
+      112,
+      106,
+      110,
+      104,
+      98,
+      100,
+      106,
+      106,
+      102,
+      102,
+      98,
+      106,
+      96,
+      108,
+      104,
+      108,
+      108,
+      102,
+      106
+    ]
+  },
+  "offline_s": {
+    "common_A0": 0.28332923200014193,
+    "local_geometry": 0.2876503090001279,
+    "loewner_enrichment": 0.14513248599996587,
+    "exact_tile_enrichment": 0.13208090199987055,
+    "row_extraction": 0.03658789099972637,
+    "rb16_training": 0.3538385960000596,
+    "loewner_total_ex_common": 0.4693706859998201,
+    "exact_tile_total_ex_common": 0.4563191019997248
+  },
+  "global_rhs": {
+    "loewner": 108,
+    "exact_tile": 695
+  },
+  "online_s_total": {
+    "direct": 2.9868569210002534,
+    "exact_tile": 0.03262507599993114,
+    "woodbury_uncached": 3.6384811069992793,
+    "woodbury_cached": 0.5116383059994405,
+    "loewner": 0.4970687969998835,
+    "rb16": 0.044934751000255346
+  },
+  "online_ms_per_query": {
+    "direct": 6.9140206504635495,
+    "exact_tile": 0.07552100925909987,
+    "woodbury_uncached": 8.42240996990574,
+    "woodbury_cached": 1.1843479305542604,
+    "loewner": 1.150622215277508,
+    "rb16": 0.1040156273154059
+  },
+  "loewner_checks": {
+    "certified": 432,
+    "total": 432,
+    "valid_vs_exact_tile": 432,
+    "relwidth_median": 6.656089073864475e-09,
+    "relwidth_max": 5.758232630330505e-07
+  },
+  "rb16_check": {
+    "valid_fraction": 1.0,
+    "relwidth_median": 6.003833835947697,
+    "relwidth_max": 20042064.2854963,
+    "nominal_lambda0": 0.005516603679394619
+  },
+  "max_relative_difference_to_exact_tile": {
+    "direct": 8.410737147930186e-10,
+    "woodbury_uncached": 0.0,
+    "woodbury_cached": 0.0
+  },
+  "break_even_queries": {
+    "lo_vs_direct": 81.43991627132212,
+    "lo_vs_cached_wb": 13917.293737083875,
+    "lo_vs_exact_tile": null,
+    "exact_tile_vs_direct": 66.7279558297022
+  }
+}

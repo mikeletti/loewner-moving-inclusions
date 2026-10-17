@@ -1,0 +1,10 @@
+mesh: 4225 nodes, 3969 free, 8192 triangles, a0 in [1.01,1.52]
+inclusion = elements with centroid within r=0.06 of mu; tiles of side 0.1 in mu in [0.15,0.85]^2
+collar 0.04, k= 0: global solves    0 (N_free=3969), offline   5.9s | Loewner sandwich verified: True | certified 588/588, valid 588/588, rel.width median 2.1e-01 max 6.0e-01 | p in [172,194]
+collar 0.04, k= 4: global solves  196 (N_free=3969), offline   5.6s | Loewner sandwich verified: True | certified 588/588, valid 588/588, rel.width median 9.3e-02 max 4.0e-01 | p in [172,196]
+collar 0.04, k= 8: global solves  392 (N_free=3969), offline   6.5s | Loewner sandwich verified: True | certified 588/588, valid 588/588, rel.width median 1.8e-03 max 4.8e-02 | p in [174,198]
+collar 0.04, k=16: global solves  784 (N_free=3969), offline   5.6s | Loewner sandwich verified: True | certified 588/588, valid 588/588, rel.width median 2.8e-05 max 9.5e-04 | p in [170,196]
+collar 0.08, k= 0: global solves    0 (N_free=3969), offline   7.7s | Loewner sandwich verified: True | certified 588/588, valid 588/588, rel.width median 1.1e-01 max 2.6e-01 | p in [174,196]
+collar 0.08, k= 4: global solves  196 (N_free=3969), offline   7.5s | Loewner sandwich verified: True | certified 588/588, valid 588/588, rel.width median 7.9e-04 max 2.0e-02 | p in [176,198]
+collar 0.08, k= 8: global solves  392 (N_free=3969), offline   8.3s | Loewner sandwich verified: True | certified 588/588, valid 588/588, rel.width median 7.7e-05 max 5.0e-04 | p in [172,194]
+collar 0.08, k=16: global solves  784 (N_free=3969), offline   7.8s | Loewner sandwich verified: True | certified 588/588, valid 588/588, rel.width median 1.9e-07 max 3.2e-06 | p in [172,198]

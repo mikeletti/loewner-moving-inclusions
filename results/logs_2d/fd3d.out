@@ -1,0 +1,8 @@
+3D grid n=32: N=32768, edges=101376, a0 in [0.85,1.69], global LU 5.3s
+8 tiles, local offline 30.7s; tile |I| ~ 3272, |B| ~ 1033
+  d_k/d_0 (first tile), k=0,4,8,16,24,32,48: 1.0e+00 6.6e-01 4.5e-01 3.1e-01 2.1e-01 1.9e-01 9.7e-02
+16 positions, p in [766,789]
+  k= 0: global solves    0 (N=32768) | sandwich ok True | certified 64/64, valid 64/64, rel.width median 8.5e-02 max 2.3e-01
+  k= 8: global solves   64 (N=32768) | sandwich ok True | certified 64/64, valid 64/64, rel.width median 7.8e-04 max 4.7e-03
+  k=16: global solves  128 (N=32768) | sandwich ok True | certified 64/64, valid 64/64, rel.width median 2.5e-04 max 1.1e-03
+  k=32: global solves  256 (N=32768) | sandwich ok True | certified 64/64, valid 64/64, rel.width median 1.1e-04 max 4.1e-04

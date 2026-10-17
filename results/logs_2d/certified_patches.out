@@ -1,0 +1,18 @@
+
+tile size 8 cells: 121 tiles, offline 16.2s
+  r= 6: eps over tiles: median 8.1e-05, max 2.4e-02
+  r=10: eps over tiles: median 1.2e-06, max 5.6e-03
+  r=16: eps over tiles: median 2.1e-09, max 8.7e-04
+  r=24: eps over tiles: median 7.9e-13, max 9.8e-05
+  r=10: certified 132/132, valid 125/132, rel.width median 1.2e-04 max 2.7e-02
+  r=16: certified 132/132, valid 118/132, rel.width median 2.2e-06 max 4.2e-03
+  r=24: certified 132/132, valid 117/132, rel.width median 5.6e-08 max 4.8e-04
+
+tile size 16 cells: 36 tiles, offline 12.1s
+  r= 6: eps over tiles: median 1.3e-02, max 5.3e-02
+  r=10: eps over tiles: median 2.4e-03, max 1.9e-02
+  r=16: eps over tiles: median 2.7e-04, max 4.0e-03
+  r=24: eps over tiles: median 3.5e-05, max 6.8e-04
+  r=10: certified 132/132, valid 131/132, rel.width median 1.8e-03 max 9.2e-02
+  r=16: certified 132/132, valid 126/132, rel.width median 7.3e-05 max 2.0e-02
+  r=24: certified 132/132, valid 124/132, rel.width median 1.7e-06 max 3.3e-03

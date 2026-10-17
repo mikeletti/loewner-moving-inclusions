@@ -1,0 +1,32 @@
+mesh 48: N_free=2209, tile |I|=261, |B|=64, dim ker S_in=1
+  d_k = sigma_{k+1}(M S^{+1/2}) / d_0 for k = 0,2,4,8,12,16,24,32: 1.0e+00 6.1e-01 3.7e-01 1.4e-01 5.4e-02 2.2e-02 2.8e-03 3.4e-04   (d_0 = 0.502)
+  euclid k= 4: sandwich ok True, ||G_+ - G_-|| = 3.69e-02
+  euclid k= 8: sandwich ok True, ||G_+ - G_-|| = 5.20e-03
+  euclid k=16: sandwich ok True, ||G_+ - G_-|| = 1.30e-04
+  energy k= 4: sandwich ok True, ||G_+ - G_-|| = 3.46e-02  (d_k^2 = 3.46e-02)
+  energy k= 8: sandwich ok True, ||G_+ - G_-|| = 5.04e-03  (d_k^2 = 5.04e-03)
+  energy k=16: sandwich ok True, ||G_+ - G_-|| = 1.17e-04  (d_k^2 = 1.17e-04)
+mesh 64: N_free=3969, tile |I|=477, |B|=90, dim ker S_in=1
+  d_k = sigma_{k+1}(M S^{+1/2}) / d_0 for k = 0,2,4,8,12,16,24,32: 1.0e+00 6.1e-01 3.8e-01 1.5e-01 5.8e-02 2.2e-02 3.6e-03 5.5e-04   (d_0 = 0.512)
+  euclid k= 4: sandwich ok True, ||G_+ - G_-|| = 3.94e-02
+  euclid k= 8: sandwich ok True, ||G_+ - G_-|| = 6.09e-03
+  euclid k=16: sandwich ok True, ||G_+ - G_-|| = 1.47e-04
+  energy k= 4: sandwich ok True, ||G_+ - G_-|| = 3.80e-02  (d_k^2 = 3.80e-02)
+  energy k= 8: sandwich ok True, ||G_+ - G_-|| = 5.70e-03  (d_k^2 = 5.70e-03)
+  energy k=16: sandwich ok True, ||G_+ - G_-|| = 1.28e-04  (d_k^2 = 1.28e-04)
+mesh 96: N_free=9025, tile |I|=1098, |B|=144, dim ker S_in=1
+  d_k = sigma_{k+1}(M S^{+1/2}) / d_0 for k = 0,2,4,8,12,16,24,32: 1.0e+00 6.1e-01 3.7e-01 1.4e-01 5.4e-02 2.1e-02 3.0e-03 4.7e-04   (d_0 = 0.509)
+  euclid k= 4: sandwich ok True, ||G_+ - G_-|| = 3.82e-02
+  euclid k= 8: sandwich ok True, ||G_+ - G_-|| = 5.33e-03
+  euclid k=16: sandwich ok True, ||G_+ - G_-|| = 1.18e-04
+  energy k= 4: sandwich ok True, ||G_+ - G_-|| = 3.60e-02  (d_k^2 = 3.60e-02)
+  energy k= 8: sandwich ok True, ||G_+ - G_-|| = 5.19e-03  (d_k^2 = 5.19e-03)
+  energy k=16: sandwich ok True, ||G_+ - G_-|| = 1.11e-04  (d_k^2 = 1.11e-04)
+mesh 128: N_free=16129, tile |I|=1990, |B|=199, dim ker S_in=1
+  d_k = sigma_{k+1}(M S^{+1/2}) / d_0 for k = 0,2,4,8,12,16,24,32: 1.0e+00 6.1e-01 3.7e-01 1.4e-01 5.2e-02 1.9e-02 2.7e-03 4.0e-04   (d_0 = 0.506)
+  euclid k= 4: sandwich ok True, ||G_+ - G_-|| = 3.87e-02
+  euclid k= 8: sandwich ok True, ||G_+ - G_-|| = 5.14e-03
+  euclid k=16: sandwich ok True, ||G_+ - G_-|| = 1.03e-04
+  energy k= 4: sandwich ok True, ||G_+ - G_-|| = 3.51e-02  (d_k^2 = 3.51e-02)
+  energy k= 8: sandwich ok True, ||G_+ - G_-|| = 4.94e-03  (d_k^2 = 4.94e-03)
+  energy k=16: sandwich ok True, ||G_+ - G_-|| = 9.70e-05  (d_k^2 = 9.70e-05)

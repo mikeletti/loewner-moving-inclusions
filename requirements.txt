@@ -1,0 +1,4 @@
+# Tested with Python 3.13, NumPy 2.5, SciPy 1.18 (smoke tests, Linux).
+# The reported 3D timings were obtained on the author's Windows workstation (versions: see README).
+numpy>=1.26
+scipy>=1.11

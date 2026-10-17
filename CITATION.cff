@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software or its raw results, please cite this archive. The associated manuscript is in preparation for submission."
+title: "loewner-moving-inclusions: code and raw results for reusable Löwner bounds with moving inclusions"
+version: 1.0.0
+license: BSD-3-Clause
+authors:
+  - family-names: Micheletti
+    given-names: Stefano
+    affiliation: "MOX, Dipartimento di Matematica, Politecnico di Milano"
+    orcid: "https://orcid.org/0000-0001-6559-299X"
+repository-code: "https://github.com/mikeletti/loewner-moving-inclusions"

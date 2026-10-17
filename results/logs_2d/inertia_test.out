@@ -1,0 +1,63 @@
+
+inertia criterion vs actual validity
+  interior soft[-.9,-.1]   r= 4 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=5.8e-06
+  interior soft[-.9,-.1]   r= 8 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=6.2e-09
+  interior soft[-.9,-.1]   r=16 inertia equal=True  (neg: 180 vs 180)  bounds valid=False  rel.width=2.2e-15
+  interior void -0.99      r= 4 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=2.5e-04
+  interior void -0.99      r= 8 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=2.7e-07
+  interior void -0.99      r=16 inertia equal=True  (neg: 180 vs 180)  bounds valid=False  rel.width=1.0e-13
+  interior void -0.999     r= 4 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=3.9e-03
+  interior void -0.999     r= 8 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=4.2e-06
+  interior void -0.999     r=16 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=1.6e-12
+  interior mixed[-.5,5]    r= 4 inertia equal=True  (neg:  22 vs  22)  bounds valid=True   rel.width=4.2e-06
+  interior mixed[-.5,5]    r= 8 inertia equal=True  (neg:  22 vs  22)  bounds valid=True   rel.width=4.5e-09
+  interior mixed[-.5,5]    r=16 inertia equal=True  (neg:  22 vs  22)  bounds valid=False  rel.width=1.7e-15
+  interior mixed[-.95,50]  r= 4 inertia equal=True  (neg:   3 vs   3)  bounds valid=True   rel.width=7.8e-06
+  interior mixed[-.95,50]  r= 8 inertia equal=True  (neg:   3 vs   3)  bounds valid=True   rel.width=8.4e-09
+  interior mixed[-.95,50]  r=16 inertia equal=True  (neg:   3 vs   3)  bounds valid=False  rel.width=3.0e-15
+  6 cells  soft[-.9,-.1]   r= 4 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=2.7e-04
+  6 cells  soft[-.9,-.1]   r= 8 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=8.5e-06
+  6 cells  soft[-.9,-.1]   r=16 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=2.6e-10
+  6 cells  void -0.99      r= 4 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=3.6e-03
+  6 cells  void -0.99      r= 8 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=1.1e-04
+  6 cells  void -0.99      r=16 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=3.4e-09
+  6 cells  void -0.999     r= 4 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=1.3e-01
+  6 cells  void -0.999     r= 8 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=4.2e-03
+  6 cells  void -0.999     r=16 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=1.3e-07
+  6 cells  mixed[-.5,5]    r= 4 inertia equal=True  (neg:  21 vs  21)  bounds valid=True   rel.width=2.0e-04
+  6 cells  mixed[-.5,5]    r= 8 inertia equal=True  (neg:  21 vs  21)  bounds valid=True   rel.width=6.3e-06
+  6 cells  mixed[-.5,5]    r=16 inertia equal=True  (neg:  21 vs  21)  bounds valid=True   rel.width=1.9e-10
+  6 cells  mixed[-.95,50]  r= 4 inertia equal=True  (neg:   2 vs   2)  bounds valid=True   rel.width=4.1e-04
+  6 cells  mixed[-.95,50]  r= 8 inertia equal=True  (neg:   2 vs   2)  bounds valid=True   rel.width=1.3e-05
+  6 cells  mixed[-.95,50]  r=16 inertia equal=True  (neg:   2 vs   2)  bounds valid=True   rel.width=4.0e-10
+  1 cell   soft[-.9,-.1]   r= 4 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=2.5e-02
+  1 cell   soft[-.9,-.1]   r= 8 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=4.0e-03
+  1 cell   soft[-.9,-.1]   r=16 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=1.6e-06
+  1 cell   void -0.99      r= 4 inertia equal=False (neg: 180 vs 116)  bounds valid=False  rel.width=6.3e-01
+  1 cell   void -0.99      r= 8 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=4.8e-02
+  1 cell   void -0.99      r=16 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=1.9e-05
+  1 cell   void -0.999     r= 4 inertia equal=False (neg: 180 vs 116)  bounds valid=False  rel.width=6.9e-02
+  1 cell   void -0.999     r= 8 inertia equal=False (neg: 180 vs 116)  bounds valid=False  rel.width=8.1e-01
+  1 cell   void -0.999     r=16 inertia equal=True  (neg: 180 vs 180)  bounds valid=True   rel.width=8.3e-04
+  1 cell   mixed[-.5,5]    r= 4 inertia equal=True  (neg:  20 vs  20)  bounds valid=True   rel.width=2.4e-02
+  1 cell   mixed[-.5,5]    r= 8 inertia equal=True  (neg:  20 vs  20)  bounds valid=True   rel.width=3.8e-03
+  1 cell   mixed[-.5,5]    r=16 inertia equal=True  (neg:  20 vs  20)  bounds valid=True   rel.width=1.6e-06
+  1 cell   mixed[-.95,50]  r= 4 inertia equal=True  (neg:   3 vs   3)  bounds valid=True   rel.width=5.2e-02
+  1 cell   mixed[-.95,50]  r= 8 inertia equal=True  (neg:   3 vs   3)  bounds valid=True   rel.width=8.2e-03
+  1 cell   mixed[-.95,50]  r=16 inertia equal=True  (neg:   3 vs   3)  bounds valid=True   rel.width=3.4e-06
+
+relative width vs bound 2eps/(gamma-2eps), stiff lognormal, varying contrast
+  interior scale    1e-02: W/D_- = 4.83e-07   bound 2eps/(gamma-2eps) = 1.03e-05   gamma=0.411
+  interior scale    1e+00: W/D_- = 4.40e-06   bound 2eps/(gamma-2eps) = 1.03e-05   gamma=0.411
+  interior scale    1e+02: W/D_- = 8.66e-06   bound 2eps/(gamma-2eps) = 1.03e-05   gamma=0.411
+  interior scale    1e+04: W/D_- = 8.85e-06   bound 2eps/(gamma-2eps) = 1.03e-05   gamma=0.411
+  6 cells  scale    1e-02: W/D_- = 1.46e-05   bound 2eps/(gamma-2eps) = 5.24e-04   gamma=0.396
+  6 cells  scale    1e+00: W/D_- = 2.00e-04   bound 2eps/(gamma-2eps) = 5.24e-04   gamma=0.396
+  6 cells  scale    1e+02: W/D_- = 4.57e-04   bound 2eps/(gamma-2eps) = 5.24e-04   gamma=0.396
+  6 cells  scale    1e+04: W/D_- = 4.64e-04   bound 2eps/(gamma-2eps) = 5.24e-04   gamma=0.396
+  1 cell   scale    1e-02: W/D_- = 1.95e-03   bound 2eps/(gamma-2eps) = 8.75e-02   gamma=0.294
+  1 cell   scale    1e+00: W/D_- = 2.35e-02   bound 2eps/(gamma-2eps) = 8.75e-02   gamma=0.294
+  1 cell   scale    1e+02: W/D_- = 5.52e-02   bound 2eps/(gamma-2eps) = 8.75e-02   gamma=0.294
+  1 cell   scale    1e+04: W/D_- = 5.69e-02   bound 2eps/(gamma-2eps) = 8.75e-02   gamma=0.294
+
+reduced form check |g^T(Dinv+G)^-1 g - k^T(B^-1+K)^-1 k| / |.| = 0.0   ||g - QQ^T g||/||g|| = 1.4085836278265983e-15
