@@ -13,7 +13,7 @@ This repository provides the reproducibility information for that article only. 
 
 Statement and section numbers below refer to the manuscript prepared for submission (Sections 1–10) and to its Supplementary Materials (Sections SM1–SM7).
 
-Source repository (to be published): https://github.com/mikeletti/loewner-moving-inclusions. The Zenodo DOI will be added to the manuscript and the GitHub main branch after the release is archived. The immutable v1.0.0 release will not contain a fictitious DOI. License: BSD 3-Clause (see `LICENSE`).
+Source repository: https://github.com/mikeletti/loewner-moving-inclusions. Archived v1.0.0 release: https://doi.org/10.5281/zenodo.23442339 (DOI: 10.5281/zenodo.23442339). The v1.0.0 release remains unchanged; this `main` branch may receive documentation updates. License: BSD 3-Clause (see `LICENSE`).
 
 > **On the word "certified".** As in the article, every bound is a theorem in exact arithmetic. The scripts run in ordinary floating point, and the JSON fields `valid`, `certified` and `fp_contained` mean that the computed bounds contained an independently computed reference value. They do **not** denote interval-arithmetic validation.
 
