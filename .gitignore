@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+# outputs written next to the scripts when they are re-run
+experiments_3d/*.json
+comparison_2d_small/*.json
+structured_2d/offline_data.npz
+
+quick_logs/
